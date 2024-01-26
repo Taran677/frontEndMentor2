@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    min-width: 80%;
+
+}
+
+.li1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    flex-direction: column;
+}
+
+.a1 {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 35px 15px;
+    color: hsl(220, 13%, 13%);
+    cursor: pointer;
+}
+
+#profile {
+    max-width: 50px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+#profile img {
+    max-width: 100%;
+    max-height: 100%;
+    border: hsl(26, 100%, 55%) solid 3px;
+    border-radius: 100%;
+}
+
+#logo {
+    padding: 0 35px 0 0;
+}
+
+#cart {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.pagebreak1 {
+    background: #EAEBEA;
+    min-height: 1px;
+    width: 80%;
+}
+
+.pagebreak2 {
+    background: hsla(26, 100%, 55%, 0);
+    min-height: 4px;
+    width: 60px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    min-width: 80%;
+    max-width: 81%;
+    align-items: center;
+}
+
+.flexBox1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.restofImages {
+    display: flex;
+    margin-left: 50px;
+    width: 65%;
+}
+
+.ul2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.li2 {
+    display: flex;
+    width: 18%;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.mainImage {
+    margin: 50px 50px 20px;
+    width: 65%;
+}
+.mainImage img{
+    border-radius: 20px;
+}
+.li2 img{
+    max-width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#li2 img{
+    opacity: 0.4;
+   
+}
+#li2{
+    border: hsl(26, 100%, 55%) solid 3px;
+    border-radius: 5px;
+}
+#sneaker{
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+#header{
+    font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+#info{
+    line-height: 30px;
+}
+.div1{
+    padding: 15px 0;
+}
+.priceOne   {
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+}
+.priceTwo{
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    border-radius: 2px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    padding: 0 2px;
+}
+#price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 35%;
+}
+#cutPrice{
+    text-decoration: line-through;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color:hsl(220, 14%, 75%);
+}
